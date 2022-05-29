@@ -3,7 +3,7 @@
     "background_color": "#7a532d",
     "display": "browser",
     "scope": "/",
-    "start_url": "/https://leasteryor.github.io/PWAgothic/",
+    "start_url": "/PWAgothic/",
     "name": "PatrykPietrzakGothic",
     "short_name": "PatrykGothic",
     "icons": [
