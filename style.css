@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url('https://ocdn.eu/pulscms-transforms/1/Jpwk9kpTURBXy8wNTNiOWMwYzUyMWE4NzFhZTgzNjcwNTM0OWNkYmM3Yi5qcGeSlQMABM0DFM0Bu5MFzQMUzQG8gqEwBaExAA');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    /* line-height: 90vh; */
+    background-color: gray;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.coffee{
+    padding: 20px;
+}
+.coffee p{
+    line-height: 1.9;
+}
+.coffe-img{
+    background-image: url('https://planetagracza.pl/wp-content/uploads/2022/03/bezimienny-gothic.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(63, 37, 37);
+    color: white;
+    letter-spacing: 1px;
+}
+@media(min-width: 768px){
+    main{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .coffee{
+        width: 50%;
+    }
+}
+    
